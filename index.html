@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Randomizer</title>
+  </head>
+  <body>
+    <!-- no8 create a list -->
+    <!--no9 Pick a Random Item -->
+    <!-- no10 App Accessibility -->
+    <!-- no11 Saving App State -->
+    <div>
+      <h1>8. create a list</h1>
+      <h1>9. Pick a Random Item</h1>
+      <h1>10. App Accessibility</h1>
+      <h1>11. Saving App State</h1>
+      <form id="form">
+        <label for="item">Add an item to the list...</label>
+        <input type="text" id="item" name="item" />
+        <button id="submit">Add Item</button>
+      </form>
+      <br />
+      <details id="details" open>
+        <summary>List:</summary>
+        <ul id="list"></ul>
+      </details>
+    </div>
+    <div>
+      <button id="pick">Pick an Item</button
+      ><button id="clear">Clear local storage</button>
+      <div id="chosen" aria-live="polite"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
